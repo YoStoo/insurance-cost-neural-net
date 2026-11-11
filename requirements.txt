@@ -1,0 +1,14 @@
+# The saved notebook outputs were produced on TripleTen with TensorFlow 2.7.0.
+# Those pins need Python 3.7–3.9, so they are not what this file installs.
+#
+# The pins below are a current Python 3.10 or 3.11 set that can rerun
+# insurance_nn.ipynb. Predictions may differ slightly from the saved outputs.
+# The notebook itself includes an hasattr() guard so the same code also
+# runs on TensorFlow 2.7 (which does not have enable_op_determinism).
+
+tensorflow==2.15.1
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.3.2
+matplotlib==3.8.4
+jupyter==1.0.0
